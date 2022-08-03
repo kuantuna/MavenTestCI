@@ -14,6 +14,6 @@ jobs:
           distribution: 'adopt'
       - name: Test with Maven
         run: mvn clean test
-      - name: Codecov
-        uses: codecov/codecov-action@v3.1.0
+      - name: Upload coverage reports to Codecov with GitHub Action
+        uses: codecov/codecov-action@v3
 
